@@ -1,0 +1,24 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+
+	"extends": ["eslint:recommended", "prettier"],
+
+	"parserOptions": {
+		"ecmaVersion": 2020
+	},
+
+	"rules": {
+		"no-unused-vars": "warn",
+		"comma-spacing": "warn",
+		"no-console": "off",
+		"quotes": ["warn", "single"],
+		"class-methods-use-this": "off"
+
+	}
+}
+
+
+
